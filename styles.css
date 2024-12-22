@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e1f1;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff4d84;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    font-size: 1.5em;
+    color: #5d5d5d;
+}
+
+.message {
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: #ff4d84;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+.interaction button {
+    background-color: #ffba56;
+}
+
+.proposal button {
+    background-color: #4d93ff;
+}
+
+button:focus {
+    outline: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.thank-you {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color: #3c3c3c;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.proposal {
+    margin-top: 40px;
+}

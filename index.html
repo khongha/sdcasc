@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Sinh Nhật Dung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Nhạc nền -->
+        <audio id="bg-music" autoplay loop>
+            <source src="https://soundcloud.com/phan-hoang-anh-tuan/mashup-by-wikin-nghe-nhu-tinh-yeu-hieuthuhai-x-mck" type="audio/mpeg">
+        </audio>
+
+        <!-- Thông điệp chúc mừng -->
+        <div class="message">
+            <h1>Chúc Mừng Sinh Nhật, Dung!</h1>
+            <p>Chúc em một ngày sinh nhật thật vui vẻ, tràn đầy yêu thương và hạnh phúc bên những người em yêu quý.</p>
+        </div>
+
+        <!-- Tính tương tác -->
+        <div class="interaction">
+            <button onclick="askQuestion()">Điều gì khiến em yêu tôi?</button>
+            <button onclick="startGame()">Chơi trò đoán tình yêu</button>
+            <button onclick="showGift()">Món quà bất ngờ</button>
+        </div>
+
+        <!-- Phần tỏ tình -->
+        <div class="proposal">
+            <button onclick="showProposal()">Tỏ tình và xác nhận mối quan hệ</button>
+        </div>
+
+        <!-- Cảm ơn -->
+        <div class="thank-you">
+            <p>Em đã làm cho cuộc sống của anh thêm phần tuyệt vời. Cảm ơn em vì đã luôn bên anh.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
